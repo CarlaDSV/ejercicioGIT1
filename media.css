@@ -1,0 +1,2785 @@
+/*FLECHA*/
+
+.contenedorflecha {
+    position: fixed;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 999998;
+    right: 95.3vw;
+    bottom: 2vw;
+}
+
+.textoflecha {
+    font-family: 'Brandon Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #7E7E7E;
+    writing-mode: vertical-lr;
+    transform: rotate(360deg);
+    margin-bottom: 10px;
+    justify-self: center;
+}
+
+.Lineaflecha {
+    display: grid;
+    align-items: end;
+    justify-items: center;
+}
+
+.iconosflecha {
+    margin-bottom: 30px;
+    justify-self: center;
+}
+
+
+
+/*ENCABEZADO*/
+
+#elementos-encabezado {
+
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+    padding: 1% 1% 1% 1%;
+    background-color: rgb(0 0 0 / 50%);
+    align-items: center;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
+    height: auto;
+    grid-template-columns: 1fr auto auto auto auto;
+}
+
+#elementos-encabezado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+div#logoencabezado {
+    margin-left: 4vw;
+    margin-right: 3vw;
+}
+
+#logoencabezado {
+    height: fit-content;
+    width: fit-content
+}
+
+
+#seccion-navegacion-encabezado {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    margin: auto;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+#seccion-navegacion-encabezado:hover {
+    /*border-bottom: 1.5px solid #FFFFFF;*/
+    opacity: 0.7;
+}
+
+#seccion-navegacion-encabezado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+#seccion-login-encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#elementos-login-encabezado {
+    display: flex;
+    grid-template-columns: auto auto;
+    height: fit-content;
+    margin: 0 0 0 3vw;
+    text-transform: uppercase;
+}
+
+#elementos-login-encabezado> :nth-child(1) {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 390;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-right: 15px;
+    text-decoration: none !important;
+}
+
+#elementos-login-encabezado> :nth-child(2) {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding-left: 15px;
+    border-left: 1.5px solid rgba(255, 255, 255, 0.5);
+    text-decoration: none !important;
+    /* Agregado para que el estilo de texto no tenga subrayado */
+}
+
+#elementos-login-encabezado> :nth-child(1):hover,
+#elementos-login-encabezado> :nth-child(2):hover {
+    cursor: pointer;
+}
+
+#division-contenedor-encabezado {
+    width: fit-content;
+    margin-left: 3vw;
+    /*display: none !important;*/
+}
+
+#division-contenedor-encabezado:hover {
+    cursor: pointer;
+}
+
+div#division-contenedor-encabezado {
+    display: none;
+}
+
+
+#seccion-seleccion-idioma {
+    display: grid;
+    width: fit-content;
+    margin: 0 5vw 0 3vw;
+}
+
+#seccion-seleccion-idioma select {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+    width: fit-content;
+}
+
+#elementos-seleccion-idioma {
+    display: flex;
+    grid-template-columns: 1fr 15px auto;
+    column-gap: 50px;
+    /*margin-right: 30px;*/
+    height: fit-content;
+    align-items: center;
+}
+
+.clase-etiquetas-idiomas {
+    color: #B4B7B7;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.clase-etiquetas-idiomas:hover {
+    cursor: pointer;
+}
+
+#seccion-menu-encabezado img {
+    width: 36px;
+}
+
+#seccion-menu-encabezado svg {
+    width: 36px;
+}
+
+#seccion-menu-encabezado {
+    padding: 2px 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4vw;
+}
+
+#seccion-menu-encabezado:hover {
+    cursor: pointer;
+}
+
+div#seccion-menu-encabezado {
+    display: block;
+    grid-column: 5/6;
+}
+
+/*BODY*/
+body {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+body {
+    color: #000;
+    font-family: brandon-grotesque, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+/* HEADER*/
+
+#contenedor-heder {
+    background-image: url(../../Terminal/IMG2/fotoheader.png);
+    background-position: 0% 20%;
+    height: 135vh;
+}
+
+#division-encabezado-header {
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    /* padding: 1% 1% 1% 1%; */
+    background-color: rgb(0 0 0 / 40%);
+    align-items: center;
+    /* border-bottom: 1.5px solid rgba(255, 255, 255, 0.5); */
+}
+
+#seccion_header_buscador {
+    padding: 0 5%;
+    background-color: rgb(0 0 0 / 40%);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+#columna-buscador {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 10% 0 1% 0;
+}
+
+#buscador-real-estate {
+    font-size: 18px;
+    padding: 7px 0 7px 20px;
+}
+
+#buscador-real-estate {
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: none;
+    padding: 10px 0 10px 25px;
+    min-width: 20vw;
+    grid-column: 2/3;
+}
+
+[type=buscar] {
+    outline-offset: -2px;
+    -webkit-appearance: none;
+}
+
+#division-header {
+    margin-bottom: 4%;
+}
+
+#division-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
+    align-items: flex-end;
+    margin-bottom: 6%;
+}
+
+#titulo1header {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+#titulo2header {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#titulo2header {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    color: #FFFFFF;
+    margin-bottom: 1.5%;
+}
+
+#seccion-header {
+    font-size: 22px;
+    padding: 8px 45px;
+}
+
+#seccion-header {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 25px;
+    line-height: 35px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 12px 45px;
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+}
+
+/* GALERIA*/
+/* PROPIEDADES A LA VENTA*/
+
+div#contenedor-galeria {
+    margin: 5% 0;
+}
+
+div#contenedor-propiedades-venta {
+    margin-bottom: 5%;
+}
+
+.grid-contenedores-galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div#carrusel-fotos-ventas {}
+
+#carrusel-fotos-ventas {
+    /* justify-content: center; */
+    align-content: end;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+#carrusel-fotos-ventas .carrusel {
+    display: flex;
+    height: 100%;
+    scroll-behavior: smooth;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.navegador-etiqueta-butt {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+#estate-content img-box {
+    margin-right: 10px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.estate-content,
+.house-content,
+.condo-content,
+.apartment-content {
+    width: 350px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: initial;
+    align-items: end;
+}
+
+
+.estate-content div span:nth-child(1),
+.house-content div span:nth-child(1),
+.condo-content div span:nth-child(1),
+.apartment-content div span:nth-child(1) {
+    padding-top: 3%;
+}
+
+.estate-content div span,
+.house-content div span,
+.condo-content div span,
+.apartment-content div span {
+    display: block;
+    color: white;
+    padding: 0 5% 0 5%;
+}
+
+
+
+.texto-pais {
+    font-family: "PF Regal Display Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.estate-content div,
+.house-content div,
+.condo-content div,
+.apartment-content div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: end;
+    background-color: rgba(0, 0, 0, 30%);
+}
+
+
+.texto-ciudad {
+    font-family: "PF Regal Display Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+#navegador-pagina-venta2 {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+/* PROPIEDADES A LA RENTA*/
+#navegador-preview2,
+#navegador-preview,
+#navegador-preview-rent,
+#navegador-preview-rent2,
+#navegador-preview-art,
+#navegador-preview-art2 {
+    display: flex;
+    align-items: center;
+}
+
+.navegador-etiqueta {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 18px;
+    color: #B4B7B7;
+}
+
+#navegador-next2,
+#navegador-next,
+#navegador-next-rent,
+#navegador-next-rent2,
+#navegador-next-art,
+#navegador-next-art2 {
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+}
+
+div#contenedor-propiedades-renta {
+    margin-bottom: 5%;
+}
+
+#contenedor-desarrollos-lujo {
+    display: grid;
+}
+
+div#propiedades-lujo {
+    text-align: start;
+    margin-left: 5%;
+}
+
+
+
+.etiqueta-texto {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #DF991B;
+}
+
+div#etiquetas-desarrollos {
+    text-align: start;
+    margin-left: 5%;
+}
+
+
+
+.propiedades-etiquetas-tipos {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 5%;
+}
+
+#galleria-desarrollos-propiedades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 5% 0 5%;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.contenedor-imagenes {
+    text-decoration: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.img-contenedor {
+    height: 12vw;
+}
+
+#contenedor-texto-venta,
+#contenedor-texto-renta {
+    margin: 0 10%;
+}
+
+.img-box-rent {
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+#galleria-propiedades-renta .carrusel {
+    display: flex;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.estate-content div,
+.house-content div,
+.condo-content div,
+.apartment-content div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: end;
+}
+
+#contenedor-desarrollos-lujo {
+    display: grid;
+}
+
+.propiedades-etiquetas-tipos {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 5%;
+}
+
+#contenedor-texto-venta,
+#contenedor-texto-renta {
+    margin: 0 10%;
+}
+
+
+
+#navegador-pagina,
+#navegador-pagina2,
+#nav-for-art {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#navegador-preview2,
+#navegador-preview,
+#navegador-preview-rent,
+#navegador-preview-rent2,
+#navegador-preview-art,
+#navegador-preview-art2 {
+    display: flex;
+    align-items: center;
+}
+
+#navegador-preview2,
+#navegador-preview,
+#navegador-preview-rent,
+#navegador-preview-rent2,
+#navegador-preview-art,
+#navegador-preview-art2 {
+    justify-self: flex-start;
+}
+
+.navegador-etiqueta {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 18px;
+    color: #B4B7B7;
+}
+
+#navegador-preview-rent span,
+#navegador-preview-rent2 span,
+#navegador-preview-art span,
+#navegador-preview-art2 span {
+    margin-left: 1vw;
+}
+
+#galleria-propiedades-renta {
+    display: flex;
+    align-items: end;
+    /* justify-content: center; */
+    align-content: end;
+    overflow: hidden;
+}
+
+.descripcion-etiquetas {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 330;
+    font-size: 23px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 20%;
+    text-align: justify;
+}
+
+#contenedor-texto-venta,
+#contenedor-texto-renta {
+    margin: 0 10%;
+}
+
+#galleria-propiedades-renta .carrusel {
+    display: flex;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+div#contenedor-propiedades-renta {
+    margin-bottom: 5%;
+}
+
+.condo-content,
+.apartment-content {
+    width: 300px;
+}
+
+/* PROPIEDADES LUJO*/
+#contenedor-desarrollos-lujo {
+    display: grid;
+}
+
+div#propiedades-lujo {
+    text-align: start;
+    margin-left: 5%;
+}
+
+
+
+div#etiquetas-desarrollos {
+    text-align: start;
+    margin-left: 5%;
+}
+
+#galleria-desarrollos-propiedades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 5% 0 5%;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.contenedor-imagenes {
+    text-decoration: none;
+}
+
+.img-contenedor {
+    height: 12vw;
+}
+
+.img-contenedor img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.etiqueta-galleria {
+    display: grid;
+    background: white;
+    padding: 1vw 0 1vw vw 2vw;
+}
+
+.nombre-propiedad {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #464547;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.ciudad-propiedad {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 30px;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.estate-content:hover>div .texto-pais::before {
+    margin-right: 10px;
+}
+
+.house-content:hover>div .texto-pais::before {
+    margin-right: 10px;
+}
+
+.condo-content:hover>div .texto-pais::before {
+    margin-right: 10px;
+}
+
+.apartment-content:hover>div .texto-pais::before {
+    margin-right: 10px;
+}
+
+
+
+#foto-francia-1 {
+    background-image: url("../../Terminal/IMG2/foto2venta.png");
+    text-decoration: none;
+}
+
+#foto-inglaterra-1 {
+    background-image: url("../../Terminal/IMG2/foto1venta.png");
+    text-decoration: none;
+}
+
+#foto-alemania-1 {
+    background-image: url("../../Terminal/IMG2/foto3venta.png");
+    text-decoration: none;
+}
+
+
+#etiqueta-texto-venta,
+#propiedades-venta {
+    text-align: right;
+}
+
+#foto-francia-0 {
+    background-image: url("");
+    text-decoration: none;
+}
+
+#foto-francia-2 {
+    background-image: url("../../Terminal/IMG2/foto1renta.png");
+    text-decoration: none;
+}
+
+#foto-alemania-2 {
+    background-image: url("../../Terminal/IMG2/foto2renta.png");
+    text-decoration: none;
+}
+
+#foto-francia-3 {
+    background-image: url("../../Terminal/IMG2/foto3renta.png");
+    text-decoration: none;
+}
+
+#foto-saint-1 {
+    background-image: url("");
+    text-decoration: none;
+}
+
+#contenedor-servicios-interior {
+    display: grid;
+}
+
+div#contenedor-texto-servicios-interior {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    padding: 5vw 0 0 0;
+    margin-right: 70px;
+}
+
+#logoservices {
+    margin-bottom: 50px;
+}
+
+.boton-titulos-art-curation {
+    font-size: 42px;
+}
+
+#descripcion-texto-etiqueta {
+    text-align: start;
+    color: #000000;
+    width: 100%;
+    margin: 4vw 0;
+}
+
+.descripcion-texto {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 330;
+}
+
+
+/*SERVICES*/
+#contenedor-servicios-interior {
+    display: grid;
+    margin-top: 100px;
+}
+
+div#contenedor-texto-servicios-interior {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    padding: 5vw 0 0 0;
+    margin-left: 70px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#logoservices {
+    margin-bottom: 50px;
+}
+
+.top-gold-titles {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #DF991B;
+}
+
+.style-label-icon-tg {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.boton-titulos-art-curation {
+    font-size: 42px;
+}
+
+#descripcion-texto-etiqueta {
+    text-align: start;
+    color: #000000;
+    width: 100%;
+    margin: 4vw 0;
+}
+
+.descripcion-texto {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 330;
+}
+
+#art-curation-content-home {
+    display: grid;
+    grid-template-columns: 5% 5% 35% 5% 5% 35% 5% 5%;
+    grid-template-rows: 10% 10% 60% 10% 10%;
+    margin-top: 5%;
+    height: 40vw;
+}
+
+
+#gallery-art-curation-gall-temp {
+    grid-column: 3/6;
+    grid-row: 2/5;
+    overflow: hidden;
+}
+
+#gall-art-content {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    width: 300%;
+    margin-left: -100%;
+}
+
+#gall-art-content a {
+    width: 100%;
+}
+
+#gall-art-content a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#gall-art-content a {
+    width: 100%;
+}
+
+#gallery-art-curation-log-temp {
+    grid-column: 6/9;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 8%;
+}
+
+#log-art-content {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border-right: 1.5px solid #DF991B;
+    align-self: center;
+}
+
+#log-art-content svg {
+    width: 70px;
+    height: 70px;
+}
+
+#line-log-art {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-bottom: 1.5px solid #DF991B;
+}
+
+#gallery-art-curation-desc-nav-temp {
+    grid-column: 6/8;
+    grid-row: 3/5;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+div#label-desc-art-cont {
+    display: grid;
+    align-content: baseline;
+    margin-left: 10%;
+}
+
+#desc-art-lab-art {
+    text-align: justify;
+}
+
+
+
+#nav-for-art {
+    margin-left: 10%;
+}
+
+#navegador-preview-art,
+#navegador-preview-art2 {
+    display: flex;
+    align-items: center;
+}
+
+#navegador-preview2,
+#navegador-preview,
+#navegador-preview-rent,
+#navegador-preview-rent2,
+#navegador-preview-art,
+#navegador-preview-art2 {
+    justify-self: flex-start;
+}
+
+.arr-nav-ab {
+    height: 18px;
+}
+
+#navegador-preview2 span,
+#navegador-preview span,
+#navegador-preview-rent span,
+#navegador-preview-rent2 span,
+#navegador-preview-art span,
+#navegador-preview-art2 span {
+    margin-left: 1vw;
+}
+
+a.navegador-etiqueta-butt {
+    text-decoration: none;
+}
+
+#navegador-next2,
+#navegador-next,
+#navegador-next-rent,
+#navegador-next-rent2,
+#navegador-next-art,
+#navegador-next-art2 {
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+}
+
+#navegador-pagina-venta,
+#navegador-pagina,
+#navegador-pagina2,
+#nav-for-art {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#art-curation-content-home {
+    display: grid;
+    grid-template-columns: 5% 5% 35% 5% 5% 35% 5% 5%;
+    grid-template-rows: 10% 10% 60% 10% 10%;
+    margin-top: 5%;
+    height: 40vw;
+}
+
+div#contenedor-galeria {
+    margin: 5% 0;
+}
+
+
+
+
+/* FOOTER*/
+
+
+
+.contenedor-superior-footer {
+    display: grid;
+    grid-template-columns: 5vw 1fr 5vw;
+    grid-template-rows: 1fr 1fr;
+}
+
+.color-footer {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color: #26282B;
+}
+
+#contenedor-seccion-join-the-list {
+    background: #26282B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 2vw 5vw 0 5vw;
+    grid-row: 1/3;
+    grid-column: 2/3;
+    grid-template-rows: auto 1fr;
+}
+
+
+
+#etiqueta-join-the-list {
+    grid-column: 1/2;
+    font-family: "PF Regal Display Pro";
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 30px;*/
+    font-size: 35px;
+    line-height: 45px;
+    color: #DF991B;
+    padding-top: 15px;
+}
+
+
+
+
+#etiqueta-join-the-list {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+
+
+#etiqueta-unlock {
+    grid-column: 1/2;
+    font-family: "PF Regal Display Pro";
+    font-style: normal;
+    font-weight: 100;
+    /*font-size: 43px;*/
+    font-size: 50px;
+    line-height: 52px;
+    color: #FFFFFF;
+    align-self: start;
+}
+
+
+#etiqueta-unlock {
+    margin-bottom: 20px;
+}
+
+#etiqueta-unlock {
+    font-size: 25px;
+    line-height: 27px;
+}
+
+#formulario-contacto {
+    /*grid-row: 1/3;
+    grid-column: 2/3;*/
+    display: block;
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
+    row-gap: 15px;
+    align-items: center;
+}
+
+.etiqueta-nombre-formulario {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: brandon-grotesque, sans-serif;
+}
+
+.borde-placeholder {
+    padding-top: 0;
+    padding-bottom: 2px;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 25px;
+    background-color: transparent !important;
+    border: 1px solid #7E7E7E;
+    border-radius: 100px;
+    height: 55px !important;
+    grid-column: 2/3;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+/*#formulario-contacto {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}*/
+
+button,
+input {
+    overflow: visible;
+}
+
+button {
+    margin: 0
+}
+
+
+#etiqueta-enviar {
+    grid-column: 1/3;
+    width: 100%;
+    background-color: unset;
+    color: #DF991B;
+    padding: 5px 30px;
+    border-radius: 100px !important;
+    letter-spacing: 3px;
+    border: 1px solid #DF991B;
+    font-size: 16px;
+    font-family: brandon-grotesque;
+    font-weight: 390;
+    height: 55px !important;
+    justify-self: end;
+    text-transform: uppercase;
+}
+
+#etiqueta-enviar:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #26282B;
+    border: 1px solid #26282B;
+}
+
+#etiqueta-enviar:focus {
+    cursor: pointer;
+    background-color: white;
+    color: #26282B;
+    border: 1px solid #26282B;
+}
+
+#etiqueta-enviar:focus-visible {
+    outline: none;
+}
+
+#etiqueta-enviar {
+    grid-column: 1/2;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 14px 20px;
+    line-height: 16px;
+    height: auto !important;
+}
+
+
+.contenedor-intermedio-footer {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+#logo-footer {
+    background: #26282B;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    padding: 5vw 0 0 0;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-bottom: 0px;
+}
+
+#logo-footer a {
+    display: grid;
+    justify-items: center;
+    width: fit-content;
+    justify-self: center;
+}
+
+/*#logo-footer {
+        padding: 40px 0 0 0;
+    }*/
+
+
+
+
+
+#contenedor-inferior-footer {
+    background-color: #26282B;
+}
+
+img {
+    width: auto;
+}
+
+#contenedor-etiquetas-bajas-footer {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    padding: 5% 0 0 0;
+}
+
+#contenedor-etiquetas-footer {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 35px;
+    margin: 0 5vw 1vw 5vw;
+}
+
+#contenedor-etiquetas-footer div:nth-child(1) {
+    align-items: flex-start;
+}
+
+#contenedor-etiquetas-footer div {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-flow: column;
+}
+
+/*#contenedor-etiquetas-footer div {
+            display: flex;
+            flex-flow: column;}*/
+
+#columna-1-footer {
+    grid-column: 1/2;
+}
+
+.font-style-general-foot {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 330;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+#contenedor-etiquetas-footer div span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+#contenedor-etiquetas-footer div span a {
+    text-decoration: none;
+    color: #B4B7B7;
+}
+
+div#columna-2-3-footer {
+    grid-column: 2/6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr auto auto;
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+.contenedor-copy-footer {
+    background-color: #000000;
+}
+
+#elementos-copy-footer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    margin: 0 5vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#elementos-copy-footer a {
+    text-decoration: none;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    color: #B4B7B7;
+}
+
+#elementos-copy-footer span {
+    text-decoration: none;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    color: #B4B7B7;
+}
+
+#elementos-copy-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#elementos-copy-footer {
+    grid-template-columns: 1fr;
+}
+
+.contenedor-copy-footer {
+    background-color: #000000;
+}
+
+#elementos-copy-footer a {
+    text-decoration: none;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    color: #B4B7B7;
+}
+
+#elementos-copy-footer span {
+    text-decoration: none;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    color: #B4B7B7;
+}
+
+#logo-footer a {
+    display: grid;
+    justify-items: center;
+    width: fit-content;
+    /*justify-self: center;*/
+}
+
+
+
+#contenedor-etiquetas-footer div:nth-child(4) {
+    align-items: end;
+}
+
+.break-tab-components {
+    display: grid !important;
+    column-gap: 40px;
+    row-gap: 30px;
+    justify-items: flex-start;
+    justify-self: center;
+}
+
+#columna-2-3-footer span:nth-child(1),
+#columna-2-3-footer span:nth-child(4),
+#columna-2-3-footer span:nth-child(7) {
+    margin-left: 5.5vw;
+}
+
+#columna-2-3-footer span:nth-child(2),
+#columna-2-3-footer span:nth-child(5),
+#columna-2-3-footer span:nth-child(8) {
+    margin-left: 5vw;
+}
+
+#columna-2-3-footer span:nth-child(3),
+#columna-2-3-footer span:nth-child(6) {
+    margin-left: 4.5vw;
+}
+
+#columna-4-footer {
+    grid-column: 6/7;
+}
+
+.contenedor-datos-contacto {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin-bottom: 5px;
+}
+
+.break-tab-components {
+    display: none !important;
+}
+
+
+/* MEDIAS*/
+
+/*FLECHAS*/
+
+/* Entre 320px y 1100px */
+@media (max-width: 1100px) {
+    .contenedorflecha {
+        display: none;
+    }
+}
+
+
+/*ENCABEZADOS*/
+
+
+
+@media (max-width: 550px) {
+    a#desk-log-head-new-stck {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    a#log-mov-head-new-stck {
+        visibility: inherit !important;
+        display: block !important;
+    }
+}
+
+@media (max-width: 550px) {
+    #log-mov-head-new-stck svg {
+        margin: 5px 0;
+        height: 50px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    #elementos-login-encabezado,
+    #seccion-seleccion-idioma {
+        display: none;
+
+    }
+}
+
+@media (max-width: 1100px) {
+    #elementos-encabezado {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+}
+
+@media (max-width: 1100px) {
+    #logoencabezado {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    #logochiquito {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+/*HEADER*/
+@media (max-width: 1600px) {
+    .texto-pais {
+        font-size: 18px;
+    }
+
+    #seccion-header {
+        background: none !important;
+        padding: 10px !important;
+        justify-self: center;
+    }
+}
+
+@media (max-width: 800px) {
+    #search-column-re {
+        padding: 5% 0 1% 0;
+    }
+}
+
+@media (max-width: 1300px) {
+    #search-column-re {
+        padding: 3% 0 1% 0;
+    }
+}
+
+@media (max-width: 600px) {
+    #real-estate-title-home {
+        margin-bottom: 9%;
+    }
+}
+
+@media (max-width: 900px) {
+    #real-estate-title-home {
+        margin-bottom: 6%;
+    }
+}
+
+@media (max-width: 1300px) {
+    #real-estate-title-home {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 1600px) {
+    #real-estate-title-home {
+        margin-bottom: 4%;
+    }
+}
+
+@media (max-width: 1150px) {
+    #social-media {
+        left: 2vh;
+    }
+}
+
+@media (max-width: 1515px) {
+    #social-media {
+        left: 3vh;
+    }
+}
+
+@media (max-width: 1100px) {
+    #contenedor-heder {
+        background-position: 50% 20%;
+        height: 113vh;
+        background-size: 160%;
+    }
+}
+
+
+
+
+
+
+/*BODY*/
+
+
+@media (orientation: portrait) {
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+.flechaderechamedia {
+    display: none;
+}
+
+/* GALERIA*/
+/* PROPIEDADES A LA VENTA*/
+@media (max-width: 1100px) {
+    .texto-ciudad {
+        font-size: 22px;
+    }
+
+    #etiqueta-texto-venta,
+    #propiedades-venta {
+        text-align: left;
+    }
+
+    .navegador-etiqueta-butt {
+        color: #DF991B;
+        border: none;
+    }
+
+    .flechaderechamedia {
+        float: right;
+        margin-left: 10px;
+        display: block;
+
+    }
+
+    #galleria-desarrollos-propiedades {
+        grid-template-columns: 1fr;
+    }
+
+    .condo-content,
+    .apartment-content {
+        width: 234px;
+    }
+
+    .img-contenedor {
+        height: 100% !important;
+    }
+
+    .break-desk-components {
+        display: grid !important;
+    }
+
+    #columna-1-footer {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+}
+
+
+
+@media (max-width: 1100px) {
+    #contenedor-servicios-interior img#salablancafondonegro {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #contenedor-servicios-interior #contenedor-texto-servicios-interior {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: 5%;
+    }
+}
+
+
+@media (max-width: 1600px) {
+    .etiqueta-texto {
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width: 1600px) {
+    .propiedades-etiquetas-tipos {
+        font-size: 42px;
+    }
+}
+
+
+
+@media (max-width: 1600px) {
+    .descripcion-etiquetas {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#contenedor-galeria {
+        margin: 10% 0 7% 0;
+    }
+}
+
+@media (max-width: 980px) {
+    div#contenedor-propiedades-venta {
+        margin-bottom: 7%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .nombre-propiedad {
+        font-size: 17px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .ciudad-propiedad {
+        font-size: 23px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    div#carrusel-fotos-ventas,
+    div#galleria-propiedades-renta {
+        height: 65vw;
+    }
+}
+
+@media (max-width: 480px) {
+    div#carrusel-fotos-ventas {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    div#carrusel-fotos-ventas,
+    div#galleria-propiedades-renta {
+        height: 60vw;
+    }
+}
+
+@media (max-width: 600px) {
+    div#carrusel-fotos-ventas {
+        grid-column: 1/3;
+        height: 50vw;
+        grid-row: 2/3;
+        margin-top: 7%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #contenedor-texto-venta,
+    #contenedor-texto-renta {
+        margin: 0 5%;
+        grid-column: 1/3;
+    }
+}
+
+@media (max-width: 430px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina-venta2,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2 {
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2,
+    #navegador-pagina-venta2 {
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    #navegador-pagina-venta2 {
+        display: grid;
+        grid-column: 1/3;
+        margin: 25px 5% 20px 5%;
+    }
+}
+
+@media (max-width: 980px) {
+    div#contenedor-propiedades-venta {
+        margin-bottom: 7%;
+    }
+}
+
+@media (max-width: 980px) {
+    div#contenedor-propiedades-renta {
+        margin-bottom: 7%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #contenedor-texto-venta,
+    #contenedor-texto-renta {
+        margin: 0 5%;
+        grid-column: 1/3;
+    }
+}
+
+@media (max-width: 1000px) {
+    .etiqueta-texto {
+        font-size: 22px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .etiqueta-texto {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .etiqueta-texto {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 980px) {
+    .propiedades-etiquetas-tipos {
+        margin-bottom: 7%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .propiedades-etiquetas-tipos {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .propiedades-etiquetas-tipos {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .propiedades-etiquetas-tipos {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 480px) {
+    .descripcion-etiquetas {
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    .descripcion-etiquetas {
+        margin-bottom: 7%;
+    }
+}
+
+@media (max-width: 850px) {
+    .descripcion-etiquetas {
+        margin-bottom: 20px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .descripcion-etiquetas {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .descripcion-etiquetas {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina-venta2,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2 {
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2,
+    #navegador-pagina-venta2 {
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #navegador-preview,
+    #navegador-next,
+    #navegador-preview-rent,
+    #navegador-next-rent,
+    #navegador-preview-art,
+    #navegador-next-art {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 525px) {
+    .navegador-etiqueta-butt {
+        justify-self: flex-start;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navegador-etiqueta-butt {
+        padding: 5px 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .navegador-etiqueta-butt {
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .navegador-etiqueta-butt {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #navegador-preview,
+    #navegador-next,
+    #navegador-preview-rent,
+    #navegador-next-rent,
+    #navegador-preview-art,
+    #navegador-next-art {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navegador-etiqueta {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina-venta2,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2 {
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2,
+    #navegador-pagina-venta2 {
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #contenedor-texto-venta,
+    #contenedor-texto-renta {
+        margin: 0 5%;
+        grid-column: 1/3;
+    }
+}
+
+@media (max-width: 400px) {
+
+    div#carrusel-fotos-ventas,
+    div#galleria-propiedades-renta {
+        height: 65vw;
+    }
+}
+
+@media (max-width: 480px) {
+    div#galleria-propiedades-renta {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    div#carrusel-fotos-ventas,
+    div#galleria-propiedades-renta {
+        height: 60vw;
+    }
+}
+
+@media (max-width: 600px) {
+    div#galleria-propiedades-renta {
+        grid-column: 1/3;
+        height: 50vw;
+        grid-row: 2/3;
+        margin-top: 7%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 430px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina-venta2,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2 {
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2,
+    #navegador-pagina-venta2 {
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    #navegador-pagina2 {
+        display: grid;
+        grid-column: 1/3;
+        margin: 25px 5% 20px 5%;
+    }
+}
+
+@media (max-width: 850px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 980px) {
+    div#contenedor-propiedades-renta {
+        margin-bottom: 7%;
+    }
+}
+
+@media (max-width: 850px) {
+    #contenedor-desarrollos-lujo {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 350px) {
+    #art-curation-content-home {
+        height: 210vw;
+    }
+}
+
+@media (max-width: 400px) {
+    #art-curation-content-home {
+        height: 195vw;
+    }
+}
+
+@media (max-width: 430px) {
+    #art-curation-content-home {
+        grid-template-rows: 10% 41% 3% 3% 39% 3% 1%;
+        margin-bottom: 22%;
+    }
+}
+
+@media (max-width: 500px) {
+    #art-curation-content-home {
+        height: 185vw;
+    }
+}
+
+@media (max-width: 500px) {
+    #art-curation-content-home {
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width: 600px) {
+    #art-curation-content-home {
+        height: 140vw;
+    }
+}
+
+@media (max-width: 600px) {
+    #art-curation-content-home {
+        grid-template-columns: 5% 75% 10% 5% 5%;
+        grid-template-rows: 10% 30% 5% 5% 40% 5% 5%;
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 980px) {
+    #art-curation-content-home {
+        margin-top: 7%;
+    }
+}
+
+@media (max-width: 700px) {
+    #art-curation-content-home {
+        height: 82vw;
+    }
+}
+
+@media (max-width: 850px) {
+    #art-curation-content-home {
+        height: 70vw;
+    }
+}
+
+@media (max-width: 900px) {
+    #art-curation-content-home {
+        height: 58vw;
+    }
+}
+
+@media (max-width: 1500px) {
+    #art-curation-content-home {
+        height: 45vw;
+    }
+}
+
+@media (max-width: 600px) {
+    #gallery-art-curation-balck-temp {
+        grid-row: 4/7;
+        grid-column: 1/3;
+    }
+}
+
+@media (max-width: 600px) {
+    #gallery-art-curation-gall-temp {
+        grid-column: 2/6;
+        grid-row: 5/6;
+    }
+}
+
+@media (max-width: 600px) {
+    #gallery-art-curation-log-temp {
+        grid-column: 2/6;
+        grid-row: 1/2;
+        margin-left: 0;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 430px) {
+    #gallery-art-curation-desc-nav-temp {
+        grid-template-rows: auto 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    #gallery-art-curation-desc-nav-temp {
+        grid-column: 2/5;
+        grid-row: 2/3;
+    }
+}
+
+@media (max-width: 430px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina-venta2,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2 {
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2,
+    #navegador-pagina-venta2 {
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    #nav-for-art2 {
+        display: grid;
+        grid-column: 1/6;
+        margin: 25px 5% 20px 5%;
+        grid-row: 7/8;
+    }
+}
+
+@media (max-width: 850px) {
+
+    #navegador-pagina-venta,
+    #navegador-pagina,
+    #navegador-pagina2,
+    #nav-for-art,
+    #nav-for-art2 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navegador-etiqueta {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#contenedor-galeria {
+        margin: 10% 0 7% 0;
+    }
+}
+
+@media (max-width: 980px) {
+    div#contenedor-galeria {
+        margin: 7% 0;
+    }
+}
+
+@media (max-width: 1600px) {
+    .descripcion-etiquetas {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+/* FOOTER*/
+
+
+@media (max-width: 835px) {
+    #contenedor-seccion-join-the-list {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    #contenedor-seccion-join-the-list {
+        padding: 20px 5%;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    #etiqueta-join-the-list {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #etiqueta-join-the-list {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 835px) {
+    #etiqueta-join-the-list {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    #etiqueta-join-the-list {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 2500px) {
+    #etiqueta-join-the-list {
+        font-size: 1.7vw;
+        line-height: 3vw;
+    }
+}
+
+
+@media (max-width: 500px) {
+    #etiqueta-join-the-list {
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 2500px) {
+    #etiqueta-join-the-list {
+        font-size: 1.7vw;
+        line-height: 3vw;
+    }
+}
+
+@media (max-width: 1300px) {
+    #etiqueta-join-the-list {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 1600px) {
+    #etiqueta-join-the-list {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 1600px) {
+    #etiqueta-unlock {
+        font-size: 42px;
+        line-height: 44px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #etiqueta-unlock {
+        font-size: 35px;
+        line-height: 37px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #etiqueta-unlock {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #formulario-contacto {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 800px) {
+    #logo-footer {
+        padding: 30px 5%;
+    }
+}
+
+
+
+@media (max-width: 1600px) {
+    .font-style-general-foot {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .font-style-general-foot {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 500px) {
+    #etiqueta-unlock {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 835px) {
+    #etiqueta-unlock {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #etiqueta-unlock {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #etiqueta-unlock {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1600px) {
+    #etiqueta-unlock {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 835px) {
+    #formulario-contacto {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+}
+
+@media (max-width: 480px) {
+    #formulario-contacto {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 835px) {
+    #formulario-contacto {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+}
+
+@media (max-width: 480px) {
+    .borde-placeholder {
+        grid-column: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #etiqueta-enviar {
+        grid-column: 1/2;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding: 14px 20px;
+        line-height: 16px;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 835px) {
+    #formulario-contacto {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+}
+
+@media (max-width: 480px) {
+    #formulario-contacto {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 835px) {
+    #formulario-contacto {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+}
+
+@media (max-width: 800px) {
+    #contenedor-seccion-join-the-list {
+        padding: 20px 5%;
+    }
+}
+
+@media (max-width: 835px) {
+    #contenedor-seccion-join-the-list {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr;
+    }
+}
+
+@media (max-width: 980px) {
+    #logo-footer {
+        padding: 40px 0 0 0;
+    }
+}
+
+@media (max-width: 980px) {
+    #logo-footer {
+        padding: 10px 0 0 0;
+        margin: 5% 0;
+    }
+}
+
+@media (max-width: 600px) {
+    #contenedor-etiquetas-bajas-footer {
+        padding: 40px 0 0 0;
+    }
+}
+
+@media (max-width: 360px) {
+    #contenedor-etiquetas-bajas-footer {
+        padding: 68% 0 0 0;
+    }
+}
+
+@media (max-width: 380px) {
+    #contenedor-etiquetas-bajas-footer {
+        padding: 66% 0 0 0;
+    }
+}
+
+@media (max-width: 400px) {
+    #contenedor-etiquetas-bajas-footer {
+        padding: 65% 0 0 0;
+    }
+}
+
+@media (max-width: 980px) {
+    #contenedor-etiquetas-footer {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    #copy-footer {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 980px) {
+    #copy-footer {
+        margin: 20px 5% 0 5%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    #contenedor-etiquetas-bajas-footer {
+        padding: 40px 0 0 0;
+    }
+}
+
+
+@media (max-width: 360px) {
+    #contenedor-etiquetas-bajas-footer {
+        padding: 68% 0 0 0;
+    }
+}
+
+@media (max-width: 380px) {
+    #contenedor-etiquetas-bajas-footer {
+        padding: 66% 0 0 0;
+    }
+}
+
+@media (max-width: 400px) {
+    #contenedor-etiquetas-bajas-footer {
+        padding: 5% 0 0 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    #contenedor-etiquetas-bajas-footer #contenedor-etiquetas-footer div:nth-child(1) {
+        align-items: center !important;
+        justify-items: center !important;
+        justify-self: center;
+    }
+}
+
+@media (max-width: 980px) {
+    .secure-logs-container-footer {
+        padding: 20px 5vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    #columna-1-footer {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    div#columna-2-3-footer {
+        grid-column: 1/2;
+    }
+
+    #columna-4-footer {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    #columna-2-3-footer span:nth-child(1),
+    #columna-2-3-footer span:nth-child(4),
+    #columna-2-3-footer span:nth-child(7) {
+        margin-left: 4.5vw;
+    }
+
+    #columna-2-3-footer span:nth-child(2),
+    #columna-2-3-footer span:nth-child(5),
+    #columna-2-3-footer span:nth-child(8) {
+        margin-left: 4.5vw;
+    }
+
+    #columna-2-3-footer span:nth-child(3),
+    #columna-2-3-footer span:nth-child(6) {
+        margin-left: 3.5vw;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    #columna-2-3-footer span:nth-child(1),
+    #columna-2-3-footer span:nth-child(4),
+    #columna-2-3-footer span:nth-child(7) {
+        margin-left: 4vw;
+    }
+
+    #columna-2-3-footer span:nth-child(2),
+    #columna-2-3-footer span:nth-child(5),
+    #columna-2-3-footer span:nth-child(8) {
+        margin-left: 4vw;
+    }
+
+    #columna-2-3-footer span:nth-child(3),
+    #columna-2-3-footer span:nth-child(6) {
+        margin-left: 2.5vw;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    div#columna-2-3-footer {
+        column-gap: 50px;
+    }
+}
+
+
+
+
+ @media (max-width: 980px){
+        .break-desk-components {
+            display: none !important;
+        }}
