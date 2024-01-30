@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serie Fibonacci</title>
+</head>
+<body>
+
+<script>
+    // Paso 3: Crear una variable llamada numeroDeElementos
+    let numeroDeElementos = 5; // Puedes cambiar este valor según la preferencia del profesor
+
+    // Paso 6: Imprimir la serie Fibonacci
+    let serieFibonacci = [0, 1];
+
+    for (let i = 2; i < numeroDeElementos; i++) {
+        // Sumar los dos elementos anteriores para generar el siguiente
+        serieFibonacci[i] = serieFibonacci[i - 1] + serieFibonacci[i - 2];
+    }
+
+    // Paso 7: Imprimir el resultado en consola
+    console.log("Serie Fibonacci:");
+
+    for (let i = 0; i < numeroDeElementos; i++) {
+        console.log(serieFibonacci[i]);
+    }
+</script>
+
+</body>
+</html>
