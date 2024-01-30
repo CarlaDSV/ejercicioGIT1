@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+
+<script>
+    // Paso 3: Crear el arreglo con valores de prueba
+    let inicio = ["unacadena", 3, 9, 1, 10, 500, 1, 10, true];
+
+    // Paso 4: Implementar el algoritmo de ordenación (burbuja)
+    for (let i = 0; i < inicio.length - 1; i++) {
+        for (let j = 0; j < inicio.length - 1 - i; j++) {
+            // Comparar elementos adyacentes y intercambiar si están en el orden incorrecto
+            if (inicio[j] > inicio[j + 1]) {
+                let temp = inicio[j];
+                inicio[j] = inicio[j + 1];
+                inicio[j + 1] = temp;
+            }
+        }
+    }
+
+    // Paso 5: Imprimir el resultado (solo números) en consola
+    console.log("Resultado final:");
+
+    for (let i = 0; i < inicio.length; i++) {
+        // Filtrar y imprimir solo los números
+        if (typeof inicio[i] === 'number') {
+            console.log(inicio[i]);
+        }
+    }
+</script>
+
+</body>
+</html>
